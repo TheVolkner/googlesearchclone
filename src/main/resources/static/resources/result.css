@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto&display=swap');
+
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding-bottom: 3em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.results{
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.busquedas{
+
+    width: 80%;
+    margin-left: 13vw;
+}
+
+.paneles{
+
+    width: 30%;
+    margin-top: 5em;
+}
+
+.titulo{
+    color:rgb(0 134 248);
+    margin-top: 0.5em;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.URL{
+
+  font-size: 0.8em;
+}
+
+.totalResultados{
+
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+
+.camposBusqueda{
+
+    margin-top:2em;
+}
+
+.icono,
+.botonera {
+  width: 50%;
+  margin: auto;
+}
+
+.icono {
+  width: 10%;
+}
+
+.imagen {
+  display: flex;
+  margin-left: 1.2em;
+  margin-right: 0;
+}
+
+.img-resultado {
+  margin-top: 1.5em;
+  width: 15vh;
+}
+
+.logo {
+  width: 100%;
+}
+
+.campo {
+  margin-top: 3.5vh;
+  margin-left: 3vw;
+  width: 50%;
+  height: 2vw;
+  padding: 8px;
+  border-color: rgba(0, 0, 0, 0.397);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.boton {
+  padding: 8px 12px;
+  border-color: rgba(0, 0, 0, 0.397);
+  margin: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.resultado{
+
+  margin-bottom: 1.5em;
+}
+
